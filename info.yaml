@@ -6,7 +6,7 @@ project:
   language: "Verilog"
   clock_hz: 0
   tiles: "1x1"
-  top_module: "test_trungviet223_sys_full_adder"
+  top_module: "tt_um_test_trungviet223_sys_full_adder"
   source_files:
     - "project.v"
 

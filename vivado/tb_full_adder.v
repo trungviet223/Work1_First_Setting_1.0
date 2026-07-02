@@ -15,7 +15,7 @@ module tb_full_adder;
   reg expected_sum;
   reg expected_cout;
 
-  test_trungviet223_sys_full_adder dut (
+  tt_um_test_trungviet223_sys_full_adder dut (
       .ui_in(ui_in),
       .uo_out(uo_out),
       .uio_in(uio_in),
