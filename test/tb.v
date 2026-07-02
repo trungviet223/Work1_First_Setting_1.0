@@ -23,7 +23,7 @@ module tb ();
   wire VGND = 1'b0;
 `endif
 
-  test_trungviet223_sys_full_adder user_project (
+  tt_um_test_trungviet223_sys_full_adder user_project (
 `ifdef GL_TEST
       .VPWR   (VPWR),
       .VGND   (VGND),
